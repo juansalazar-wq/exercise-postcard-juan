@@ -1,0 +1,63 @@
+body {
+	background: black;
+	font-family: "Montserrat", sans-serif;
+}
+/* Este es el estilo que coloca las margenes rojas para saber los devs */
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+/* Esta es la section principal */
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+/* Esta es la section hija header */
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+p {
+	font-size: medium;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: inherit;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: gray;
+	padding: 10px 10px 10px 10px;
+}
